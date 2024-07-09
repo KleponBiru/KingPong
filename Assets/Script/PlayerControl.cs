@@ -8,8 +8,6 @@ public class PlayerControl : MonoBehaviour
 {
     public KeyCode moveUP = KeyCode.W;
     public KeyCode moveDown = KeyCode.S;
-    // public KeyCode moveLeft = KeyCode.A;
-    // public KeyCode moveRight = KeyCode.D;
     public float speed = 10.0f;
     public float BoundY = 3.0f;
     private Rigidbody2D rb2d;
@@ -35,19 +33,6 @@ public class PlayerControl : MonoBehaviour
         {
             vel.y = 0;
         }
-
-        // if(Input.GetKey(moveLeft))
-        // {
-        //     vel.x = -speed;
-        // }
-        // else if(Input.GetKey(moveRight))
-        // {
-        //     vel.x = speed;
-        // }
-        // else
-        // {
-        //     vel.x = 0;
-        // }
 
         rb2d.velocity = vel;
 

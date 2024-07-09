@@ -52,12 +52,12 @@ public class GameManager : MonoBehaviour
 
     public void ScoreCheck()
     {
-        if(PlayerScoreL == 2)
+        if(PlayerScoreL == 5)
         {
             pannelWinL.SetActive(true);
             // switchScene.ChangeSceneTo("Main Menu");
         }
-        else if(PlayerScoreR == 2)
+        else if(PlayerScoreR == 5)
         {
             pannelWinR.SetActive(true);
             // switchScene.ChangeSceneTo("Main Menu");

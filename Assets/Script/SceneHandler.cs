@@ -9,10 +9,12 @@ public class SceneHandler : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
     public void printSomething()
     {
         Debug.Log("klik");
     }
+    
     public void QuitNow()
     {
         Application.Quit();
