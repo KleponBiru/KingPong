@@ -1,5 +1,8 @@
 <h1>KingPong</h1>
 
+![KingPongGIF](https://github.com/KleponBiru/KingPong/assets/159217810/9248e515-e005-4464-9552-ae5755156cd9)
+
+
 <h3>About Game</h3>
 KingPong is a basic PingPong game where the King try to defend himself from the cannon ball throwed by the KingPig. 
 
